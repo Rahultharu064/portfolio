@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { GlobeAmericasIcon, CodeBracketIcon, CommandLineIcon, EnvelopeIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/solid';
-import Navbar from '../Components/Navbar/Navbar';
-import Footer from '../Components/Footer/Footer';
 
 // Ensure this file exists at the specified path
 
@@ -60,7 +58,7 @@ const About = () => {
 
   return (
     <>
-   <Navbar />
+   
     
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -193,7 +191,6 @@ const About = () => {
         </motion.div>
       </div>
     </div>
-    <Footer />
     
     </>
   );
