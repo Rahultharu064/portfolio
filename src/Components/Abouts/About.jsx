@@ -166,7 +166,7 @@ const About = () => {
           className="text-center mt-16"
         >
           <a
-            href="#contact"
+            href=""
             className="inline-block px-8 py-4 bg-blue-500 text-white rounded-full text-lg font-semibold hover:bg-blue-600 transition-colors"
           >
             Let's Work Together
