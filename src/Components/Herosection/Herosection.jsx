@@ -112,7 +112,7 @@ const HeroSection = () => {
                 <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
                   <a
                   href="/contact"
-                  className="px-8 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-medium text-lg"
+     className="px-8 py-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-medium text-lg"
                   >
                   Contact Me
                   </a>
