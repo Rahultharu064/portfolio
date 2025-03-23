@@ -6,6 +6,7 @@ import Skills from '../Components/Skills/Skills'
 import Footer from '../Components/Footer/Footer'
 import About from '../Components/Abouts/About'
 import Projects from '../Components/Projects/Projects'
+import ContactPage from '../Components/Contactus/ContactPage'
 
 
 const Homepage = () => {
@@ -14,6 +15,7 @@ const Homepage = () => {
     <Navbar />
     <HeroSection />
     <About />
+    <ContactPage />
     <Projects />
 
    

@@ -1,7 +1,12 @@
 import React from 'react'
 import Homepage from './Pages/Homepage'
 import { BrowserRouter ,Routes , Route } from 'react-router-dom'
-import About from './Pages/About'
+import About from './Pages/Abouts'
+import Abouts from './Pages/Abouts'
+import Projects from './Pages/Projectsp'
+import Projectsp from './Pages/Projectsp'
+import Skillsp from './Pages/Skillsp'
+import Contractus from './Pages/Contractus'
 
 
 
@@ -12,7 +17,16 @@ const App = () => {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/About" element={<About />}/>
+        <Route path="/abouts" element={<Abouts />} />
+        <Route path="/Projectsp" element={<Projectsp />} />
+        <Route path="/Skillsp" element={<Skillsp />} />
+        <Route path='/Contractus' element={<Contractus />}/>
+
+
+        
+        
+
+       
         
         
     </Routes>

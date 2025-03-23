@@ -13,10 +13,10 @@ const Navbar = () => {
               </div>
               <div className="hidden md:flex space-x-8">
                 <Link to="/" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Home</Link>
-                <Link to="/About" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">About</Link>
-                <Link to="\Portfolio" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Projects</Link>
-                <Link to="#skills" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Skills</Link>
-                <Link to="#contact" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Contact</Link>
+                <Link to="/Abouts" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">About</Link>
+                <Link to="/Projectsp" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Projects</Link>
+                <Link to="/Skillsp" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Skills</Link>
+                <Link to="/Contractus" className="text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition duration-300">Contact</Link>
               </div>
               <div className="md:hidden">
                 <button id="mobile-menu-button" className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">

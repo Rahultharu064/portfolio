@@ -87,7 +87,7 @@ const Footer = () => {
         {/* Copyright Section */}
         <div className="border-t border-gray-800 pt-8 flex flex-col items-center justify-between md:flex-row">
           <p className="text-gray-400 text-sm text-center">
-            &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+            &copy; {new Date().getFullYear()} rahul chaudhary. All rights reserved.
           </p>
           <div className="flex items-center gap-2 mt-4 md:mt-0">
             <p className="text-gray-400 text-sm flex items-center">
