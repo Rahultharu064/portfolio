@@ -16,6 +16,8 @@ const Projects = () => {
       role: "Full-stack Developer",
       techStack: "HTML, CSS, PHP,SQL",
       image: ecommerce,
+      link: "",
+      
     },
     {
       id: 2,
@@ -26,6 +28,7 @@ const Projects = () => {
       role: "AI Developer",
       techStack: "HTML, CSS, JAVASCRIPT,GEMINI API",
       image: chatbot1,
+      link: "https://advanced-chat-bot.vercel.app/",
     },
     {
       id: 3,
@@ -36,6 +39,7 @@ const Projects = () => {
       role: "Frontend Developer",
       techStack: "React, Tailwind CSS, Framer Motion",
       image: portfolio1,
+      link: "https://portfolio-rahultharu064s-projects.vercel.app/"
     },
   ];
 
@@ -87,13 +91,13 @@ const Projects = () => {
 
               <div className="mt-6 flex space-x-4">
                 <a
-                  href="#"
+                  href=""
                   className="bg-white text-black font-semibold px-6 py-2 rounded-md hover:bg-gray-300 transition"
                 >
                   CASE STUDY
                 </a>
                 <a
-                  href="#"
+                  href={project.link}
                   className="text-gray-400 underline hover:text-white transition"
                 >
                   VISIT SITE →
