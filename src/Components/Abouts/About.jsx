@@ -12,6 +12,7 @@ import {
   FaFacebook,
   FaInstagram
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -41,7 +42,6 @@ const About = () => {
 
   return (
   <>
- 
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <button
@@ -87,41 +87,41 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Social Links */}
-              <div className="flex space-x-4 justify-center">
-                <a 
-                  href="#" 
-                  className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
-                  aria-label="LinkedIn"
-                >
-                  <FaLinkedin className="w-6 h-6" />
-                </a>
-                <a 
-                  href="#" 
-                  className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
-                  aria-label="GitHub"
-                >
-                  <FaGithub className="w-6 h-6" />
-                </a>
-                <a 
-                  href="#" 
-                  className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
-                  aria-label="Facebook"
-                >
-                  <FaFacebook className="w-6 h-6" />
-                </a>
-                <a 
-                  href="#" 
-                  className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
-                  aria-label="Instagram"
-                >
-                  <FaInstagram className="w-6 h-6" />
-                </a>
-              </div>
-            </motion.div>
-          </div>
+            
+                      <div className="flex space-x-4 justify-center">
+                      <a 
+                        href="#" 
+                        className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
+                        aria-label="LinkedIn"
+                      >
+                        <FaLinkedin className="w-6 h-6" />
+                      </a>
+                      <a 
+                        href="#" 
+                        className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
+                        aria-label="GitHub"
+                      >
+                        <FaGithub className="w-6 h-6" />
+                      </a>
+                      <a 
+                        href="#" 
+                        className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
+                        aria-label="Facebook"
+                      >
+                        <FaFacebook className="w-6 h-6" />
+                      </a>
+                      <a 
+                        href="#" 
+                        className="p-2 rounded-full hover:bg-blue-500 hover:text-white transition"
+                        aria-label="Instagram"
+                      >
+                        <FaInstagram className="w-6 h-6" />
+                      </a>
+                      </div>
+                    </motion.div>
+                    </div>
 
-          {/* Details Section */}
+                    {/* Details Section */}
           <div className="lg:col-span-2 space-y-12">
             {/* About Me */}
             <motion.div
@@ -165,17 +165,16 @@ const About = () => {
           transition={{ delay: 0.5 }}
           className="text-center mt-16"
         >
-          <a
-            href=""
+          <Link
+            to="/Contractus"
             className="inline-block px-8 py-4 bg-blue-500 text-white rounded-full text-lg font-semibold hover:bg-blue-600 transition-colors"
           >
             Let's Work Together
-          </a>
+          </Link>
         </motion.div>
       </div>
     </div>
-   
-    </>
+  </>
   );
 };
 
